@@ -2,6 +2,7 @@
  * Estilo: Jardim de Celebrações — hospitalidade botânica contemporânea,
  * com conversão acolhedora, formas orgânicas e leitura clara para famílias.
  */
+import { useEffect } from "react";
 import {
   ArrowRight,
   CalendarDays,
@@ -73,6 +74,11 @@ function WhatsAppButton({
 }
 
 export default function Home() {
+    useEffect(() => {
+          const w = window as typeof window & { gtag?: (...args: unknown[]) => void };
+          w.gtag?.('event', 'conversion', { send_to: 'AW-10909947517/wQlgCMev2ekcEP2sotIo' });
+    }, []);
+  
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#f8f6ed] text-[#1f3926]">
       <header className="site-header">
