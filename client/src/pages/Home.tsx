@@ -136,8 +136,8 @@ export default function Home() {
             <div className="hero-visual__leaf hero-visual__leaf--one" />
             <div className="hero-visual__leaf hero-visual__leaf--two" />
             <img
-              src="/manus-storage/casa-arvore-hero-festa-infantil_29fdad78.jpg"
-              alt="Decoração de festa infantil em jardim com piscina e área para brincar"
+              src="/manus-storage/casa-arvore-piscina-real_8e902302.jpg"
+              alt="Piscina e área externa da Casa da Árvore Festas em Cabo Frio"
               className="hero-visual__photo"
             />
             <div className="hero-visual__tag">
@@ -167,7 +167,7 @@ export default function Home() {
           </div>
           <div className="feature-grid">
             <div className="feature-photo feature-photo--play">
-              <img src="/manus-storage/casa-arvore-brincadeiras_1b3bb5e6.jpg" alt="Área de aventura ao ar livre para festas infantis" loading="lazy" />
+              <img src="/manus-storage/casa-arvore-brinquedoteca-real_3daf1a60.jpg" alt="Brinquedoteca da Casa da Árvore Festas com escorregador e atividades infantis" loading="lazy" />
               <span className="photo-label"><CirclePlay className="size-4" /> Espaço para explorar</span>
             </div>
             <div className="feature-list">
@@ -189,8 +189,8 @@ export default function Home() {
 
         <section className="care-section">
           <div className="care-section__image">
-            <img src="/manus-storage/casa-arvore-buffet_120d20a0.jpg" alt="Mesa de buffet decorada para festa infantil" loading="lazy" />
-            <div className="care-section__image-note"><UtensilsCrossed className="size-4" /> Sabores, cores e cuidado</div>
+            <img src="/manus-storage/casa-arvore-jardim-real_250bae2d.jpg" alt="Jardim arborizado da Casa da Árvore Festas em Cabo Frio" loading="lazy" />
+            <div className="care-section__image-note"><TreePine className="size-4" /> Jardim, espaço e cuidado</div>
           </div>
           <div className="care-section__content">
             <div className="section-kicker">Detalhes que acolhem</div>
@@ -245,7 +245,7 @@ export default function Home() {
             <div className="celebration-section__helper"><Clock3 className="size-4" /> Atendimento sujeito à confirmação de disponibilidade.</div>
           </div>
           <div className="celebration-section__visual">
-            <img src="/manus-storage/casa-arvore-decoracao_9c310169.jpg" alt="Decoração botânica para aniversário infantil" loading="lazy" />
+            <img src="/manus-storage/casa-arvore-decoracao-evento-real_7032fb07.jpeg" alt="Ambientação real de evento do Grupo Casa da Árvore" loading="lazy" />
             <div className="celebration-section__stamp"><span>festa</span><strong>feliz</strong><span>começa aqui</span></div>
           </div>
         </section>
