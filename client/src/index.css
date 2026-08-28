@@ -63,7 +63,7 @@
 @layer components {
   .site-header { @apply sticky top-0 z-50 flex items-center justify-between border-b border-[#2b542d]/10 bg-[#f8f6ed]/92 px-5 py-3.5 backdrop-blur-lg sm:px-8 lg:px-[7.5vw]; }
   .brand-mark { @apply flex items-center gap-2.5 text-[#25522b] transition-opacity hover:opacity-75; }
-  .brand-mark__symbol { @apply size-10 object-contain; }
+  .brand-mark__official-logo { @apply h-10 w-auto object-contain sm:h-11; }
   .brand-mark__text { @apply flex flex-col text-[11px] leading-[0.85] tracking-[0.02em]; font-family: "Fraunces", serif; }
   .brand-mark__text strong { @apply font-medium; }
   .brand-mark__text em { @apply mt-1 text-[21px] font-semibold not-italic; }
@@ -174,13 +174,11 @@
   .faq-item[open] summary svg { @apply rotate-180; }
   .faq-item p { @apply max-w-[620px] pb-5 text-sm leading-6 text-[#607561]; }
 
-  .site-footer { @apply flex flex-col gap-6 bg-[#244c2b] px-5 py-10 text-[#dce9cf] sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-[7.5vw]; }
+  .site-footer { @apply flex flex-col gap-6 border-t border-[#315d32]/12 bg-[#edf4da] px-5 py-10 text-[#355d39] sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-[7.5vw]; }
   .site-footer__brand { @apply flex items-center gap-3; }
-  .site-footer__brand img { @apply size-12 object-contain; filter: brightness(0) saturate(100%) invert(95%) sepia(16%) saturate(783%) hue-rotate(39deg) brightness(105%) contrast(83%); }
-  .site-footer__brand div { @apply flex flex-col; }
-  .site-footer__brand strong { font-family: "Fraunces", serif; @apply text-xl font-semibold; }
-  .site-footer__brand span, .site-footer__source { @apply text-xs text-[#c3d6bd]; }
-  .site-footer__phone { @apply inline-flex w-fit items-center gap-2 text-sm font-extrabold text-[#f4c76d] transition hover:text-white; }
+  .site-footer__brand img { @apply h-12 w-auto object-contain; }
+  .site-footer__brand span, .site-footer__source { @apply text-xs text-[#5a765b]; }
+  .site-footer__phone { @apply inline-flex w-fit items-center gap-2 text-sm font-extrabold text-[#38743a] transition hover:text-[#e36d50]; }
   .mobile-whatsapp { @apply fixed bottom-4 left-4 right-4 z-50 flex items-center justify-center gap-2 rounded-full bg-[#e36d50] px-5 py-3.5 text-sm font-extrabold text-white shadow-[0_12px_30px_rgba(67,35,22,0.28)] transition active:scale-[0.97] sm:hidden; }
 
   @media (prefers-reduced-motion: no-preference) {

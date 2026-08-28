@@ -78,14 +78,10 @@ export default function Home() {
       <header className="site-header">
         <a href="#inicio" className="brand-mark" aria-label="Casa da Árvore — início">
           <img
-            src="/manus-storage/casa-arvore-marca_216e93d7.png"
-            alt=""
-            className="brand-mark__symbol"
+            src="/manus-storage/casa-arvore-logo-oficial_21f32115.png"
+            alt="Casa da Árvore Festas"
+            className="brand-mark__official-logo"
           />
-          <span className="brand-mark__text">
-            <strong>Casa da</strong>
-            <em>Árvore</em>
-          </span>
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Navegação principal">
@@ -282,8 +278,8 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="site-footer__brand">
-          <img src="/manus-storage/casa-arvore-marca_216e93d7.png" alt="" />
-          <div><strong>Casa da Árvore</strong><span>Festas infantis · Cabo Frio</span></div>
+          <img src="/manus-storage/casa-arvore-logo-oficial_21f32115.png" alt="Casa da Árvore Festas" />
+          <span>Festas infantis · Cabo Frio</span>
         </div>
         <div className="site-footer__source">Informações de estrutura e serviços conforme divulgação institucional.</div>
         <a className="site-footer__phone" href={whatsappUrl} target="_blank" rel="noreferrer"><Phone className="size-4" /> Falar no WhatsApp</a>
