@@ -78,7 +78,7 @@ export default function Home() {
       <header className="site-header">
         <a href="#inicio" className="brand-mark" aria-label="Casa da Árvore — início">
           <img
-            src="/manus-storage/casa-arvore-logo-oficial_21f32115.png"
+            src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2025/03/logoverde.png"
             alt="Casa da Árvore Festas"
             className="brand-mark__official-logo"
           />
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="hero-visual__leaf hero-visual__leaf--one" />
             <div className="hero-visual__leaf hero-visual__leaf--two" />
             <img
-              src="/manus-storage/casa-arvore-piscina-real_8e902302.jpg"
+              src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2021/03/135852103_5579414748751139_3730229195559612929_o-1024x684.jpg"
               alt="Piscina e área externa da Casa da Árvore Festas em Cabo Frio"
               className="hero-visual__photo"
             />
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
           <div className="feature-grid">
             <div className="feature-photo feature-photo--play">
-              <img src="/manus-storage/casa-arvore-brinquedoteca-real_3daf1a60.jpg" alt="Brinquedoteca da Casa da Árvore Festas com escorregador e atividades infantis" loading="lazy" />
+              <img src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2021/03/137553360_5579366368755977_5934482302631471968_o-1024x684.jpg" alt="Brinquedoteca da Casa da Árvore Festas com escorregador e atividades infantis" loading="lazy" />
               <span className="photo-label"><CirclePlay className="size-4" /> Espaço para explorar</span>
             </div>
             <div className="feature-list">
@@ -185,7 +185,7 @@ export default function Home() {
 
         <section className="care-section">
           <div className="care-section__image">
-            <img src="/manus-storage/casa-arvore-jardim-real_250bae2d.jpg" alt="Jardim arborizado da Casa da Árvore Festas em Cabo Frio" loading="lazy" />
+            <img src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2021/03/136704600_5579422712083676_3702496940311501270_o-1024x684.jpg" alt="Jardim arborizado da Casa da Árvore Festas em Cabo Frio" loading="lazy" />
             <div className="care-section__image-note"><TreePine className="size-4" /> Jardim, espaço e cuidado</div>
           </div>
           <div className="care-section__content">
@@ -241,7 +241,7 @@ export default function Home() {
             <div className="celebration-section__helper"><Clock3 className="size-4" /> Atendimento sujeito à confirmação de disponibilidade.</div>
           </div>
           <div className="celebration-section__visual">
-            <img src="/manus-storage/casa-arvore-decoracao-evento-real_7032fb07.jpeg" alt="Ambientação real de evento do Grupo Casa da Árvore" loading="lazy" />
+            <img src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2021/03/136659959_5579414408751173_8742951951585259668_o-1024x684.jpg" alt="Casa na árvore e estrutura infantil da Casa da Árvore Festas" loading="lazy" />
             <div className="celebration-section__stamp"><span>festa</span><strong>feliz</strong><span>começa aqui</span></div>
           </div>
         </section>
@@ -278,7 +278,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="site-footer__brand">
-          <img src="/manus-storage/casa-arvore-logo-oficial_21f32115.png" alt="Casa da Árvore Festas" />
+          <img src="https://casadaarvorefestas.com.br/site/wp-content/uploads/2025/03/logoverde.png" alt="Casa da Árvore Festas" />
           <span>Festas infantis · Cabo Frio</span>
         </div>
         <div className="site-footer__source">Informações de estrutura e serviços conforme divulgação institucional.</div>

@@ -9,3 +9,8 @@
 - [x] Verificar a situação do repositório local e o nome disponível no GitHub.
 - [x] Criar um repositório privado e enviar a versão atual da landing page.
 - [x] Confirmar o repositório remoto e registrar o endereço de acesso.
+- [x] Alterar a visibilidade do repositório para público.
+- [x] Confirmar que o endereço está acessível sem autenticação.
+- [ ] Verificar a conexão da conta Vercel e os requisitos do projeto para implantação externa.
+- [ ] Criar o projeto Vercel a partir do repositório público e executar a implantação de produção.
+- [ ] Validar a URL de produção e registrar o endereço final.
