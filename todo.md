@@ -6,3 +6,6 @@
 - [x] Validar a composição em desktop e mobile e salvar o novo checkpoint.
 - [x] Baixar e hospedar a logomarca real publicada pela Casa da Árvore Festas.
 - [x] Substituir logo e favicon, validar a exibição e salvar um novo checkpoint.
+- [ ] Verificar a situação do repositório local e o nome disponível no GitHub.
+- [ ] Criar um repositório privado e enviar a versão atual da landing page.
+- [ ] Confirmar o repositório remoto e registrar o endereço de acesso.
